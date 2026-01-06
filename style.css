@@ -1,265 +1,262 @@
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
 }
 
 .my_divs {
-    height: 100vh;
-    overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 
-#btn1, #btn2, #btn3, #btn4{
-    visibility: hidden;
-    position: absolute;
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
+  visibility: hidden;
+  position: absolute;
 }
 
-.arrow-down::after{
-    content:"";
+.arrow-down::after {
+  content: "";
 
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    margin: auto;
-    top: 35rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-right: 4px solid rgb(255,255,255,0.4);
-    border-bottom: 4px solid rgb(255,255,255,0.4);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  top: 35rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 4px solid rgb(255, 255, 255, 0.4);
+  border-bottom: 4px solid rgb(255, 255, 255, 0.4);
 
-    transform: rotate(45deg);
-    cursor: pointer;
+  transform: rotate(45deg);
+  cursor: pointer;
 }
 
-#div1{
-    /* background-color:rgb(29, 84, 109); */
-    background-color:rgb(45, 60, 89);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    position: relative;
+#div1 {
+  /* background-color:rgb(29, 84, 109); */
+  background-color: rgb(45, 60, 89);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
 }
 
 #div1 h1 {
-    margin: 1rem;
-    color: rgba(211, 218, 224, 0.959);
-    text-shadow: 1px 1px 2px black;
+  margin: 1rem;
+  color: rgba(211, 218, 224, 0.959);
+  text-shadow: 1px 1px 2px black;
 }
 
 #div1 i {
-    color: rgba(211, 218, 224, 0.959);
-    font-size: 1.5rem;
-    text-shadow: 1px 1px 2px black;
+  color: rgba(211, 218, 224, 0.959);
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px black;
 }
 
-#div1 p{
-    text-shadow: 1px 1px 2px rgb(31, 30, 30);
-     line-height: 2;
-    letter-spacing: 0.5px;
-    font-size: 1.2rem;
+#div1 p {
+  text-shadow: 1px 1px 2px rgb(31, 30, 30);
+  line-height: 2;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
 }
 
-.img-div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 2rem;
-
+.img-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
 }
 
-.img-div div{
-
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
+.img-div div {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
 }
 
-.img-div div img{
-    height: 210px;
-    border-radius: 50%;
+.img-div div img {
+  height: 210px;
+  border-radius: 50%;
 }
 
-#div2{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    background-image: url(network-.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(255,255,255,0.4);
-    color: white;
-    
+#div2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-image: url(network-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(148, 163, 120);
+  color: white;
 }
 
-#div2 h1{
-    color: rgb(7, 7, 7);
+#div2 h1 {
+  color: white;
 }
 
-#div2 div{
-    height: 100vh;
-    width: 100vw;
-    padding-left: 10%;
-    padding-right: 10%;
-
+#div2 div {
+  height: 100vh;
+  width: 100vw;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-#div2 div img{
-    height: 200px;
-    width: 200px;
-    margin-top: 10%;
-
+#div2 div img {
+  height: 200px;
+  width: 200px;
+  margin-top: 10%;
 }
 
-#div2 div h1{
-    margin: 30px auto 30px;
+#div2 div h1 {
+  margin: 30px auto 30px;
 }
 
-#div2 div p{
-    line-height: 2;
-    letter-spacing: 0.5px;
-    font-size: 1.2rem;
+#div2 div p {
+  line-height: 2;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
 }
 
-#div3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    padding: 0px 10% 0px;
-    background-color: rgb(148, 163, 120) ;
-    overflow: hidden;
-
+#div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 0px 10% 0px;
+  background-color: rgb(148, 163, 120);
+  overflow: hidden;
 }
 
-#skills_title{
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 20px;
+#skills_title {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
-#skills_title h1{
-    color:rgb(255, 255, 255);
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+#skills_title h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
-.skills h3, .skills p{
-    margin-top: 10px;
-    color: rgb(255, 253, 253);
-    text-shadow: 1px 1px 3px rgb(0, 0, 0) ;
+.skills h3,
+.skills p {
+  margin-top: 10px;
+  color: rgb(255, 253, 253);
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
 
-.skills_wrap{
-    display: inline;
+.skills_wrap {
+  display: inline;
 }
 
 .skills {
-    background-color:rgba(0, 0, 0, 0.644);
-    border: 1px solid black;
-    width: 20%;
-    margin: 2px 2px 20px;
-    padding: 25px;
-    height: auto;
-    display: inline-block;
+  background-color: rgba(0, 0, 0, 0.644);
+  border: 1px solid black;
+  width: 20%;
+  margin: 2px 2px 20px;
+  padding: 25px;
+  height: auto;
+  display: inline-block;
 }
 
-.skills img{
-    width: 30%;
-    height: auto;
+.skills img {
+  width: 30%;
+  height: auto;
 }
 
-#div4{
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    padding: 0px 10px 0px;
-    background-color: rgb(229, 186, 65);
+#div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 0px 10px 0px;
+  background-color: rgb(229, 186, 65);
 }
 
-#div4 h1, #div4 p{
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 5px rgb(255, 255, 255) ;
-    margin: 15px;
+#div4 h1,
+#div4 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  margin: 15px;
 }
 
-#div4 p{
-    font-size: 1.1rem;
+#div4 p {
+  font-size: 1.1rem;
 }
 
-.overlay{
-    height: 80vh;
-    width: 80vw;
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    padding: 10px;
+.overlay {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 10px;
 }
- form{
-    padding: 10px;
-
- }
-
-form input, form textarea, button{
-    width: 100%;
-    padding: 10px;
-    font-size: 0.8rem;
-    margin-bottom: 5px;
-
-} 
-
-
-.arrow-up::after{
-    content:"";
-
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    margin: auto;
-    top: 36rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-right: 4px solid rgb(255,255,255,0.8);
-    border-bottom: 4px solid rgb(255,255,255,0.8);
-
-    transform: rotate(223deg);
-    cursor: pointer;
+form {
+  padding: 10px;
 }
 
-
-@media(max-width: 600px){
-    .skills{
-        width: 70vw;
-    }
-
-    .skills-wrap {
-        overflow: auto;
-    }
+form input,
+form textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
 }
 
-@media(max-width: 600px){
-    #div2 div p{
-        font-size: 1erm;
-        line-height: 1;
-    }
+.arrow-up::after {
+  content: "";
+
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: auto;
+  top: 36rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 4px solid rgb(255, 255, 255, 0.8);
+  border-bottom: 4px solid rgb(255, 255, 255, 0.8);
+
+  transform: rotate(223deg);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .skills {
+    width: 70vw;
+  }
+
+  .skills-wrap {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  #div2 div p {
+    font-size: 1erm;
+    line-height: 1;
+  }
 }
